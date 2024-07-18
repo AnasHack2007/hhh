@@ -9,6 +9,11 @@
     justify-content: space-around;
 }
 
+body{
+    background-image: url(de.png);
+    background-repeat: no-repeat;
+    background-size:100% 200vh;
+}
 
 .e h1{
     margin-top: 40px;
@@ -104,22 +109,15 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border:none;
     transition: 0.9s;
-    margin-left: -70px;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 
 .ni input:hover{
 transform: scale(1.1)
 }
 
-.im img{
-    height: 750px;
-    width: 600px;
-    border-radius: 4%;
-    margin-top: 20px;
-    margin-right: 40px;
-}
 
 .op h1{
     margin-bottom: 10px;
@@ -136,4 +134,113 @@ transform: scale(1.1)
 }
 .in-14 input{
     margin:10px ;
+}
+
+
+@media  (min-width:290px){
+
+    .e h1{
+        font-size: 40px;
+    }
+    .op h1{
+        font-size: 40px;
+    }
+
+    .in-1 input{
+        height: 40px;
+        width:250px ;
+    }
+    .in-2 input{
+        height: 40px;
+        width:250px ;
+    }
+    .in-3 input{
+        height: 40px;
+        width:250px ;
+    }
+    .in-4 input{
+        height: 40px;
+        width:250px ;
+    }
+
+    .ni input{
+        font-size: 20px;
+        height: 40px;
+        width: 250px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media  (min-width:350px){
+
+    .e h1{
+        font-size: 45px;
+    }
+    .op h1{
+        font-size: 45px;
+    }
+
+    .in-1 input{
+        height: 45px;
+        width:300px ;
+    }
+    .in-2 input{
+        height: 45px;
+        width:300px ;
+    }
+    .in-3 input{
+        height: 45px;
+        width:300px ;
+    }
+    .in-4 input{
+        height: 45px;
+        width:300px ;
+    }
+
+    .ni input{
+        font-size: 20px;
+        height: 45px;
+        width: 300px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media  (min-width:470px){
+
+    .e h1{
+        font-size: 45px;
+    }
+    .op h1{
+        font-size: 45px;
+    }
+
+    .in-1 input{
+        height: 50px;
+        width:400px ;
+    }
+    .in-2 input{
+        height: 50px;
+        width:400px ;
+    }
+    .in-3 input{
+        height: 50px;
+        width:400px ;
+    }
+    .in-4 input{
+        height: 50px;
+        width:400px ;
+    }
+
+    .ni input{
+        font-size: 20px;
+        height: 50px;
+        width: 350px;
+        margin-left: 30px;
+    }
+    
 }
